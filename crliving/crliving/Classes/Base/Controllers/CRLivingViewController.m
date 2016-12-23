@@ -1,29 +1,49 @@
 //
-//  CRLoginViewController.m
+//  CRLivingViewController.m
 //  crliving
 //
 //  Created by Tristana on 2016/12/24.
 //  Copyright © 2016年 Tristana. All rights reserved.
 //
 
-#import "CRLoginViewController.h"
+#import "CRLivingViewController.h"
 
-@interface CRLoginViewController ()
+@interface CRLivingViewController ()
 
 @end
 
-@implementation CRLoginViewController
+@implementation CRLivingViewController
+
+//SingletonM(LivingVC);
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
     [self initArguments];
+    [self initLayouts];
 }
-
 
 -(void)initArguments{
     [super initArguments];
-    self.view.backgroundColor = [UIColor greenColor];
+    
+}
+
+-(void)initLayouts{
+    UIButton *backBt = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
+    backBt.backgroundColor = [UIColor redColor];
+    [backBt addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBt];
+}
+
+
+-(void)backAction{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+-(void)dealloc{
+    NSLog(@"销毁了哦");
 }
 
 

@@ -1,31 +1,28 @@
 //
-//  CRLoginViewController.m
+//  CRHomeViewController.m
 //  crliving
 //
 //  Created by Tristana on 2016/12/24.
 //  Copyright © 2016年 Tristana. All rights reserved.
 //
 
-#import "CRLoginViewController.h"
+#import "CRHomeViewController.h"
 
-@interface CRLoginViewController ()
+@interface CRHomeViewController ()
 
 @end
 
-@implementation CRLoginViewController
+@implementation CRHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view.
     [self initArguments];
 }
 
-
 -(void)initArguments{
     [super initArguments];
-    self.view.backgroundColor = [UIColor greenColor];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

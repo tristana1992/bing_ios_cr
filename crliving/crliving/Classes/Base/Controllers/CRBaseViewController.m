@@ -31,7 +31,7 @@
  初始化基本参数
  **/
 -(void)initArguments{
-    self.view.backgroundColor = [UIColor purpleColor];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 /**
  初始化基本布局
