@@ -10,12 +10,14 @@
 		1367000107EA65FDDBBB4420 /* libPods-crlivingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F30758204550657C446DBAF /* libPods-crlivingTests.a */; };
 		37FF5CD71E0D690800F07CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CD61E0D690800F07CB8 /* main.m */; };
 		37FF5CDA1E0D690800F07CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CD91E0D690800F07CB8 /* AppDelegate.m */; };
-		37FF5CDD1E0D690800F07CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CDC1E0D690800F07CB8 /* ViewController.m */; };
 		37FF5CE01E0D690800F07CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FF5CDE1E0D690800F07CB8 /* Main.storyboard */; };
 		37FF5CE21E0D690800F07CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FF5CE11E0D690800F07CB8 /* Assets.xcassets */; };
 		37FF5CE51E0D690800F07CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FF5CE31E0D690800F07CB8 /* LaunchScreen.storyboard */; };
 		37FF5CF01E0D690800F07CB8 /* crlivingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CEF1E0D690800F07CB8 /* crlivingTests.m */; };
 		37FF5CFB1E0D690800F07CB8 /* crlivingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CFA1E0D690800F07CB8 /* crlivingUITests.m */; };
+		37FF5D3D1E0D872900F07CB8 /* CRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5D3C1E0D872900F07CB8 /* CRBaseViewController.m */; };
+		37FF5D411E0D8BA400F07CB8 /* CRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5D3F1E0D8BA400F07CB8 /* CRLoginViewController.m */; };
+		37FF5D421E0D8BA400F07CB8 /* CRLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37FF5D401E0D8BA400F07CB8 /* CRLoginViewController.xib */; };
 		A855B953240C8A6002D4DA7C /* libPods-crliving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A2D59026C9A619073C6F9 /* libPods-crliving.a */; };
 		BE3D4F366A8E3E67AF94FE16 /* libPods-crlivingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1EE6DFFD9F04543A4E3EB1 /* libPods-crlivingUITests.a */; };
 /* End PBXBuildFile section */
@@ -46,20 +48,23 @@
 		278F66FCEE9EFB18B3D85936 /* Pods-crlivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests.release.xcconfig"; sourceTree = "<group>"; };
 		37FF5CD21E0D690800F07CB8 /* crliving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crliving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF5CD61E0D690800F07CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37FF5CD81E0D690800F07CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		37FF5CD91E0D690800F07CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37FF5CDB1E0D690800F07CB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37FF5CDC1E0D690800F07CB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37FF5CD81E0D690800F07CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		37FF5CD91E0D690800F07CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		37FF5CDF1E0D690800F07CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37FF5CE11E0D690800F07CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FF5CE11E0D690800F07CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		37FF5CE41E0D690800F07CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37FF5CE61E0D690800F07CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FF5CE61E0D690800F07CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		37FF5CEB1E0D690800F07CB8 /* crlivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crlivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF5CEF1E0D690800F07CB8 /* crlivingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crlivingTests.m; sourceTree = "<group>"; };
 		37FF5CF11E0D690800F07CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37FF5CF61E0D690800F07CB8 /* crlivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crlivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF5CFA1E0D690800F07CB8 /* crlivingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crlivingUITests.m; sourceTree = "<group>"; };
 		37FF5CFC1E0D690800F07CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FF5D3B1E0D872900F07CB8 /* CRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseViewController.h; sourceTree = "<group>"; };
+		37FF5D3C1E0D872900F07CB8 /* CRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseViewController.m; sourceTree = "<group>"; };
+		37FF5D3E1E0D8BA400F07CB8 /* CRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRLoginViewController.h; sourceTree = "<group>"; };
+		37FF5D3F1E0D8BA400F07CB8 /* CRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRLoginViewController.m; sourceTree = "<group>"; };
+		37FF5D401E0D8BA400F07CB8 /* CRLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CRLoginViewController.xib; sourceTree = "<group>"; };
 		3D526EC2AED7837C66504E87 /* Pods-crlivingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE25E53C910E8E35FA9F7ADD /* Pods-crlivingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingUITests/Pods-crlivingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9A2D59026C9A619073C6F9 /* libPods-crliving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crliving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,14 +123,7 @@
 		37FF5CD41E0D690800F07CB8 /* crliving */ = {
 			isa = PBXGroup;
 			children = (
-				37FF5CD81E0D690800F07CB8 /* AppDelegate.h */,
-				37FF5CD91E0D690800F07CB8 /* AppDelegate.m */,
-				37FF5CDB1E0D690800F07CB8 /* ViewController.h */,
-				37FF5CDC1E0D690800F07CB8 /* ViewController.m */,
-				37FF5CDE1E0D690800F07CB8 /* Main.storyboard */,
-				37FF5CE11E0D690800F07CB8 /* Assets.xcassets */,
-				37FF5CE31E0D690800F07CB8 /* LaunchScreen.storyboard */,
-				37FF5CE61E0D690800F07CB8 /* Info.plist */,
+				37FF5D081E0D7FBB00F07CB8 /* Classes */,
 				37FF5CD51E0D690800F07CB8 /* Supporting Files */,
 			);
 			path = crliving;
@@ -155,6 +153,184 @@
 				37FF5CFC1E0D690800F07CB8 /* Info.plist */,
 			);
 			path = crlivingUITests;
+			sourceTree = "<group>";
+		};
+		37FF5D081E0D7FBB00F07CB8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D281E0D816F00F07CB8 /* Base */,
+				37FF5D2C1E0D816F00F07CB8 /* Helper */,
+				37FF5D2F1E0D816F00F07CB8 /* Home */,
+				37FF5D331E0D816F00F07CB8 /* Login */,
+				37FF5D371E0D816F00F07CB8 /* Mine */,
+				37FF5D131E0D7FBB00F07CB8 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		37FF5D131E0D7FBB00F07CB8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5CD81E0D690800F07CB8 /* AppDelegate.h */,
+				37FF5CD91E0D690800F07CB8 /* AppDelegate.m */,
+				37FF5CDE1E0D690800F07CB8 /* Main.storyboard */,
+				37FF5CE11E0D690800F07CB8 /* Assets.xcassets */,
+				37FF5CE31E0D690800F07CB8 /* LaunchScreen.storyboard */,
+				37FF5CE61E0D690800F07CB8 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		37FF5D281E0D816F00F07CB8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D291E0D816F00F07CB8 /* Controllers */,
+				37FF5D2A1E0D816F00F07CB8 /* Models */,
+				37FF5D2B1E0D816F00F07CB8 /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		37FF5D291E0D816F00F07CB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D3B1E0D872900F07CB8 /* CRBaseViewController.h */,
+				37FF5D3C1E0D872900F07CB8 /* CRBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37FF5D2A1E0D816F00F07CB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37FF5D2B1E0D816F00F07CB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37FF5D2C1E0D816F00F07CB8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D2D1E0D816F00F07CB8 /* Category */,
+				37FF5D2E1E0D816F00F07CB8 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		37FF5D2D1E0D816F00F07CB8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		37FF5D2E1E0D816F00F07CB8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		37FF5D2F1E0D816F00F07CB8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D301E0D816F00F07CB8 /* Controller */,
+				37FF5D311E0D816F00F07CB8 /* Model */,
+				37FF5D321E0D816F00F07CB8 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37FF5D301E0D816F00F07CB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37FF5D311E0D816F00F07CB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37FF5D321E0D816F00F07CB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37FF5D331E0D816F00F07CB8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D341E0D816F00F07CB8 /* Controller */,
+				37FF5D351E0D816F00F07CB8 /* Model */,
+				37FF5D361E0D816F00F07CB8 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		37FF5D341E0D816F00F07CB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D3E1E0D8BA400F07CB8 /* CRLoginViewController.h */,
+				37FF5D3F1E0D8BA400F07CB8 /* CRLoginViewController.m */,
+				37FF5D401E0D8BA400F07CB8 /* CRLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37FF5D351E0D816F00F07CB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37FF5D361E0D816F00F07CB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37FF5D371E0D816F00F07CB8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				37FF5D381E0D816F00F07CB8 /* Controller */,
+				37FF5D391E0D816F00F07CB8 /* Model */,
+				37FF5D3A1E0D816F00F07CB8 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		37FF5D381E0D816F00F07CB8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37FF5D391E0D816F00F07CB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37FF5D3A1E0D816F00F07CB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		6730687288A3F09C6C34DB37 /* Frameworks */ = {
@@ -298,6 +474,7 @@
 				37FF5CE51E0D690800F07CB8 /* LaunchScreen.storyboard in Resources */,
 				37FF5CE21E0D690800F07CB8 /* Assets.xcassets in Resources */,
 				37FF5CE01E0D690800F07CB8 /* Main.storyboard in Resources */,
+				37FF5D421E0D8BA400F07CB8 /* CRLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,9 +637,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37FF5CDD1E0D690800F07CB8 /* ViewController.m in Sources */,
 				37FF5CDA1E0D690800F07CB8 /* AppDelegate.m in Sources */,
 				37FF5CD71E0D690800F07CB8 /* main.m in Sources */,
+				37FF5D3D1E0D872900F07CB8 /* CRBaseViewController.m in Sources */,
+				37FF5D411E0D8BA400F07CB8 /* CRLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +682,7 @@
 				37FF5CDF1E0D690800F07CB8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		37FF5CE31E0D690800F07CB8 /* LaunchScreen.storyboard */ = {
@@ -512,6 +691,7 @@
 				37FF5CE41E0D690800F07CB8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -612,7 +792,9 @@
 			baseConfigurationReference = 13340DF9D617486E4636CFAB /* Pods-crliving.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = crliving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bing.crliving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -624,7 +806,9 @@
 			baseConfigurationReference = 06BF2FE80631EE72615FD9F8 /* Pods-crliving.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = crliving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bing.crliving;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -700,6 +884,7 @@
 				37FF5D011E0D690800F07CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37FF5D021E0D690800F07CB8 /* Build configuration list for PBXNativeTarget "crlivingTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +893,7 @@
 				37FF5D041E0D690800F07CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37FF5D051E0D690800F07CB8 /* Build configuration list for PBXNativeTarget "crlivingUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +902,7 @@
 				37FF5D071E0D690800F07CB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

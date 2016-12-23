@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CRLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CRLoginViewController *rootVC = [[CRLoginViewController alloc] init];
+    
+    
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    
+    [_window setRootViewController:rootVC];
     [_window makeKeyAndVisible];
     
     return YES;
