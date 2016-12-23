@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1367000107EA65FDDBBB4420 /* libPods-crlivingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F30758204550657C446DBAF /* libPods-crlivingTests.a */; };
 		37FF5CD71E0D690800F07CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CD61E0D690800F07CB8 /* main.m */; };
 		37FF5CDA1E0D690800F07CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CD91E0D690800F07CB8 /* AppDelegate.m */; };
 		37FF5CDD1E0D690800F07CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CDC1E0D690800F07CB8 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		37FF5CE51E0D690800F07CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FF5CE31E0D690800F07CB8 /* LaunchScreen.storyboard */; };
 		37FF5CF01E0D690800F07CB8 /* crlivingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CEF1E0D690800F07CB8 /* crlivingTests.m */; };
 		37FF5CFB1E0D690800F07CB8 /* crlivingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF5CFA1E0D690800F07CB8 /* crlivingUITests.m */; };
+		A855B953240C8A6002D4DA7C /* libPods-crliving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A2D59026C9A619073C6F9 /* libPods-crliving.a */; };
+		BE3D4F366A8E3E67AF94FE16 /* libPods-crlivingUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1EE6DFFD9F04543A4E3EB1 /* libPods-crlivingUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06BF2FE80631EE72615FD9F8 /* Pods-crliving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crliving.release.xcconfig"; path = "Pods/Target Support Files/Pods-crliving/Pods-crliving.release.xcconfig"; sourceTree = "<group>"; };
+		0C1EE6DFFD9F04543A4E3EB1 /* libPods-crlivingUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crlivingUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F30758204550657C446DBAF /* libPods-crlivingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crlivingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13340DF9D617486E4636CFAB /* Pods-crliving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crliving.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crliving/Pods-crliving.debug.xcconfig"; sourceTree = "<group>"; };
+		217EE0CEDFB4226962D43F12 /* Pods-crlivingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingUITests/Pods-crlivingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		278F66FCEE9EFB18B3D85936 /* Pods-crlivingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests.release.xcconfig"; sourceTree = "<group>"; };
 		37FF5CD21E0D690800F07CB8 /* crliving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crliving.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF5CD61E0D690800F07CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37FF5CD81E0D690800F07CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		37FF5CF61E0D690800F07CB8 /* crlivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crlivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FF5CFA1E0D690800F07CB8 /* crlivingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crlivingUITests.m; sourceTree = "<group>"; };
 		37FF5CFC1E0D690800F07CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D526EC2AED7837C66504E87 /* Pods-crlivingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE25E53C910E8E35FA9F7ADD /* Pods-crlivingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crlivingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-crlivingUITests/Pods-crlivingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD9A2D59026C9A619073C6F9 /* libPods-crliving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-crliving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A855B953240C8A6002D4DA7C /* libPods-crliving.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1367000107EA65FDDBBB4420 /* libPods-crlivingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3D4F366A8E3E67AF94FE16 /* libPods-crlivingUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				37FF5CEE1E0D690800F07CB8 /* crlivingTests */,
 				37FF5CF91E0D690800F07CB8 /* crlivingUITests */,
 				37FF5CD31E0D690800F07CB8 /* Products */,
+				6DA37EF8EEBE8F66880BBC3F /* Pods */,
+				6730687288A3F09C6C34DB37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = crlivingUITests;
 			sourceTree = "<group>";
 		};
+		6730687288A3F09C6C34DB37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A2D59026C9A619073C6F9 /* libPods-crliving.a */,
+				0F30758204550657C446DBAF /* libPods-crlivingTests.a */,
+				0C1EE6DFFD9F04543A4E3EB1 /* libPods-crlivingUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DA37EF8EEBE8F66880BBC3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13340DF9D617486E4636CFAB /* Pods-crliving.debug.xcconfig */,
+				06BF2FE80631EE72615FD9F8 /* Pods-crliving.release.xcconfig */,
+				3D526EC2AED7837C66504E87 /* Pods-crlivingTests.debug.xcconfig */,
+				278F66FCEE9EFB18B3D85936 /* Pods-crlivingTests.release.xcconfig */,
+				CE25E53C910E8E35FA9F7ADD /* Pods-crlivingUITests.debug.xcconfig */,
+				217EE0CEDFB4226962D43F12 /* Pods-crlivingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FF5CFF1E0D690800F07CB8 /* Build configuration list for PBXNativeTarget "crliving" */;
 			buildPhases = (
+				2CD0E71B9CEA06ECB62AE38F /* [CP] Check Pods Manifest.lock */,
 				37FF5CCE1E0D690800F07CB8 /* Sources */,
 				37FF5CCF1E0D690800F07CB8 /* Frameworks */,
 				37FF5CD01E0D690800F07CB8 /* Resources */,
+				A35D6359F6B1CFD970851D12 /* [CP] Embed Pods Frameworks */,
+				9EE60604004506756F42945B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FF5D021E0D690800F07CB8 /* Build configuration list for PBXNativeTarget "crlivingTests" */;
 			buildPhases = (
+				6B1FC81890EDFF03D31516B0 /* [CP] Check Pods Manifest.lock */,
 				37FF5CE71E0D690800F07CB8 /* Sources */,
 				37FF5CE81E0D690800F07CB8 /* Frameworks */,
 				37FF5CE91E0D690800F07CB8 /* Resources */,
+				486852D9E299AAD581C1020A /* [CP] Embed Pods Frameworks */,
+				1214664BADDDFD02F54C8873 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FF5D051E0D690800F07CB8 /* Build configuration list for PBXNativeTarget "crlivingUITests" */;
 			buildPhases = (
+				7A03A2F14BDD38F8C73A03EC /* [CP] Check Pods Manifest.lock */,
 				37FF5CF21E0D690800F07CB8 /* Sources */,
 				37FF5CF31E0D690800F07CB8 /* Frameworks */,
 				37FF5CF41E0D690800F07CB8 /* Resources */,
+				02A07B8424E20D221E0BDA1B /* [CP] Embed Pods Frameworks */,
+				00C59586B5B82EFDC9FB990D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +316,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C59586B5B82EFDC9FB990D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crlivingUITests/Pods-crlivingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02A07B8424E20D221E0BDA1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crlivingUITests/Pods-crlivingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1214664BADDDFD02F54C8873 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD0E71B9CEA06ECB62AE38F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		486852D9E299AAD581C1020A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crlivingTests/Pods-crlivingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B1FC81890EDFF03D31516B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A03A2F14BDD38F8C73A03EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE60604004506756F42945B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crliving/Pods-crliving-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A35D6359F6B1CFD970851D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-crliving/Pods-crliving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37FF5CCE1E0D690800F07CB8 /* Sources */ = {
@@ -422,6 +609,7 @@
 		};
 		37FF5D001E0D690800F07CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13340DF9D617486E4636CFAB /* Pods-crliving.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = crliving/Info.plist;
@@ -433,6 +621,7 @@
 		};
 		37FF5D011E0D690800F07CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BF2FE80631EE72615FD9F8 /* Pods-crliving.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = crliving/Info.plist;
@@ -444,6 +633,7 @@
 		};
 		37FF5D031E0D690800F07CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D526EC2AED7837C66504E87 /* Pods-crlivingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = crlivingTests/Info.plist;
@@ -456,6 +646,7 @@
 		};
 		37FF5D041E0D690800F07CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278F66FCEE9EFB18B3D85936 /* Pods-crlivingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = crlivingTests/Info.plist;
@@ -468,6 +659,7 @@
 		};
 		37FF5D061E0D690800F07CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE25E53C910E8E35FA9F7ADD /* Pods-crlivingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = crlivingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +671,7 @@
 		};
 		37FF5D071E0D690800F07CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217EE0CEDFB4226962D43F12 /* Pods-crlivingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = crlivingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
