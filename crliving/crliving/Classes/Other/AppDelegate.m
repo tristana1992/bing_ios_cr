@@ -22,6 +22,7 @@
     //CRLoginViewController *rootVC = [[CRLoginViewController alloc] init];
     
     CRTabBarController *rootVC = [[CRTabBarController alloc] init];
+    rootVC.selectedIndex = 0;
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     

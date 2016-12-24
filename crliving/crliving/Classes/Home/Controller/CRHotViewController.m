@@ -1,22 +1,29 @@
 //
-//  CRNavigationController.m
+//  CRHotViewController.m
 //  crliving
 //
-//  Created by Tristana on 2016/12/24.
+//  Created by Tristana on 2016/12/25.
 //  Copyright © 2016年 Tristana. All rights reserved.
 //
 
-#import "CRNavigationController.h"
+#import "CRHotViewController.h"
 
-@interface CRNavigationController ()
+@interface CRHotViewController ()
 
 @end
 
-@implementation CRNavigationController
+@implementation CRHotViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    [self initUI];
+}
+
+
+-(void)initUI{
+    self.view.backgroundColor = [UIColor purpleColor];
+    NSLog(@"初始化热门");
 }
 
 - (void)didReceiveMemoryWarning {

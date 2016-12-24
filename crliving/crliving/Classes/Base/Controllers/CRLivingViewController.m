@@ -20,16 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self initArguments];
-    [self initLayouts];
+    [self initData];
+    [self initUI];
 }
 
--(void)initArguments{
-    [super initArguments];
+-(void)initData{
     
 }
 
--(void)initLayouts{
+-(void)initUI{
     UIButton *backBt = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
     backBt.backgroundColor = [UIColor redColor];
     [backBt addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
@@ -43,7 +42,7 @@
 
 
 -(void)dealloc{
-    NSLog(@"销毁了哦");
+    NSLog(@"直播页面销毁了!");
 }
 
 

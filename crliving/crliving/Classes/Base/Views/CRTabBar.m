@@ -22,7 +22,7 @@
     if (self) {
         [self setShadowImage:[UIImage new]];
         [self setBackgroundImage:[UIImage imageNamed:@"global_tab_bg"]];
-        [self setTintColor:color(0, 223, 205)];
+        [self setTintColor:COLOR(179, 153, 93)];
         
         _centerBt = [UIButton buttonWithType:UIButtonTypeCustom];
         [_centerBt setImage:[UIImage imageNamed:@"tab_live_n"] forState:UIControlStateNormal];
@@ -57,6 +57,7 @@
             if (btIndex == 1) {
                 btIndex++;
             }
+            
         }
     }
     
@@ -67,10 +68,23 @@
 //响应中间按钮的方法
 -(void)centerClick:(UIButton *) bt
 {
+    [UIView animateWithDuration:0.2 animations:^{
+        
+        bt.transform = CGAffineTransformMakeScale(1.5, 1.5);
+        
+    } completion:^(BOOL finished) {
+        
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            bt.transform = CGAffineTransformIdentity;
+        }];
+    }];
     if (_block) {
         _block();
     }
 }
+
+
 
 
 //重写hitTest方法，去监听发布按钮的点击，目的是为了让凸出的部分点击也有反应

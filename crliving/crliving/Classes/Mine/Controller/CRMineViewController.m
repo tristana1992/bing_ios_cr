@@ -17,12 +17,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self initArguments];
+    [self initData];
+    [self initUI];
 }
 
--(void)initArguments{
-    [super initArguments];
-    self.view.backgroundColor = [UIColor greenColor];
+-(void)setupNav{
+    self.navigationController.navigationBarHidden = NO;
+}
+
+-(void)initUI{
+    [super initUI];
+    //self.view = self.backGroundView;
+    self.view.backgroundColor = [UIColor redColor];
+    
+}
+
+-(void)initLayouts{
+    
+}
+
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleDefault;
 }
 
 - (void)didReceiveMemoryWarning {

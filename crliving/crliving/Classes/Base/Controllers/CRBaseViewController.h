@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface CRBaseViewController : UIViewController
+
+@property (nonatomic, strong) UIImageView *backGroundView;
+
 /**
- 初始化基本参数
+ 初始化参数
  */
--(void)initArguments;
+-(void)initData;
 /**
- 初始化基本布局
+ 初始化布局
  */
--(void)initLayouts;
+-(void)initUI;
+
 @end

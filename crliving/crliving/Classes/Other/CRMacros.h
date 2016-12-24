@@ -29,7 +29,7 @@
 
 #define USER_DEFAULT [NSUserDefaults standardUserDefaults]
 
-#define color(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define COLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 
-
+#define RANDOMNUM(num) arc4random()%(num)
 #endif /* CRMacros_h */

@@ -27,17 +27,28 @@
 
 #pragma mark - 基本方法实现
 
-/**
- 初始化基本参数
- **/
--(void)initArguments{
+
+-(void)initData{
+    
+    
+}
+
+
+-(void)initUI{
     self.view.backgroundColor = [UIColor whiteColor];
 }
-/**
- 初始化基本布局
- */
--(void)initLayouts{
 
+#pragma mark - 懒加载
+
+-(UIImageView *)backGroundView{
+    if (!_backGroundView) {
+        _backGroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"login_bg"]];
+        _backGroundView.userInteractionEnabled = YES;
+        [_backGroundView sizeToFit];
+        [_backGroundView setAlpha:0.1];
+    }
+    
+    return _backGroundView;
 }
 
 

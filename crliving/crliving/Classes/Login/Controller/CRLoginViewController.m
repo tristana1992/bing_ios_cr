@@ -17,13 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self initArguments];
+    [self initData];
+    [self initUI];
 }
 
 
--(void)initArguments{
-    [super initArguments];
-    self.view.backgroundColor = [UIColor greenColor];
+-(void)initUI{
+    [super initUI];
+    self.view.backgroundColor = [UIColor blueColor];
 }
 
 

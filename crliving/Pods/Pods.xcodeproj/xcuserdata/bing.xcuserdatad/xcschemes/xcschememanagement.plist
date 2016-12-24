@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LFLiveKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,9 +39,29 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>24D55B093D4D25E348B6408D4B02BDB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DDAE03AF3C8522E4A72B04217791E61</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>7C86A896A7E843919DCCD17134EAF41C</key>
 		<dict>
 			<key>primary</key>
@@ -52,7 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3D1CE9D15420D502FB03A6A75F02845</key>
+		<key>A316B54C67E947D23CECD230FA5BFAEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ADD52BB97D6E8F25F191D58513CCE105</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5A37DA692A7B94CE788D0E45D9FE1CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

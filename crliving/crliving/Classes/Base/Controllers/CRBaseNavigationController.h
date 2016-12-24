@@ -1,5 +1,5 @@
 //
-//  CRNavigationController.h
+//  CRBaseNavigationController.h
 //  crliving
 //
 //  Created by Tristana on 2016/12/24.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRNavigationController : UINavigationController
+@interface CRBaseNavigationController : UINavigationController
+
+-(void)changeNavBackGroundImage;
 
 @end
